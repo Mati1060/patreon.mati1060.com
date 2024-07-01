@@ -1,13 +1,13 @@
 # patreon.mati1060.com
 
-patreon.mati1060.com is a simple web application that displays the contents of a directory with sub pages for easier segregation of content by date.
+patreon.mati1060.com is a simple web application that displays the contents of a directory with subpages for easier segregation of content by date.
 
-**Note:** This repository contains the backend code for my website, patreon.mati1060.com. This website is not publicly accesible
+**Note:** This repository contains the backend code for my website, patreon.mati1060.com. This website is not publicly accessible
 
 ## Features
 
-- Reads content from `files/Creatror/yyyy/mm.yyyy/dd.mm direcotory name` and displays them.
-- Individual sub pages for the creator, year, month and day.
+- Reads content from `files/Creatror/yyyy/mm.yyyy/dd.mm directory name` and displays them.
+- Individual subpages for the creator, year, month and day.
 - Converting the date format form something like 06.2024 to June 2024.
 - Ability to add preview images for individual creators and days, as well as tags for days.
 - Support for a lot of common text, image and audio formats `txt, jpg jpeg png gif webp, mp3 wav ogg`
@@ -15,8 +15,8 @@ patreon.mati1060.com is a simple web application that displays the contents of a
 ## Requirements
 
 - PHP 8.3, may work with older but not tested
-- Files need be arrenged in this way `Creatror/yyyy/mm.yyyy/dd.mm.direcotory name/some file name`
-- The preview images diplayed on the month page need to be named image and tags with thier appropiet extensions
+- Files need be arranged in this way `Creatror/yyyy/mm.yyyy/dd.mm.directory name/some file name`
+- The preview images displayed on the month page need to be named image and tags with their appropriate extensions
 - The webserver used needs to support the file types that are being hosted.
 
 ## Installation
@@ -35,16 +35,16 @@ patreon.mati1060.com is a simple web application that displays the contents of a
 
 3. **Ensure you have PHP and a web server installed (e.g. Apache, Nginx).**
 
-4. **Create the files directory with is appropriet subdirectorys, an valid file structure coulde be `files/Some name/2024/06.2024/05.06 Test 1`**
+4. **Create the files directory with is appropriate subdirectory’s, an valid file structure could be `files/Some name/2024/06.2024/05.06 Test 1`**
 
-5. **Add preview images for creators in thier directoris, (e.g. `files/Some name/image.png`)**
+5. **Add preview images for creators in their directories, (e.g. `files/Some name/image.png`)**
 
-6. **Add preview images and tags for days in thier directoris, (e.g. `files/Some name/2024/06.2024/05.06 Test 1/image.png` and `files/Some name/2024/06.2024/05.06 Test 1/tags.txt`)**
+6. **Add preview images and tags for days in their directories, (e.g. `files/Some name/2024/06.2024/05.06 Test 1/image.png` and `files/Some name/2024/06.2024/05.06 Test 1/tags.txt`)**
 
-7. **Populate the individual day folders with thier content, (e.g. `files/Some name/2024/06.2024/05.06 Test 1/info.txt`)**
+7. **Populate the individual day folders with their content, (e.g. `files/Some name/2024/06.2024/05.06 Test 1/info.txt`)**
 
 ## Note
 
-- In the instalatin instuctiuns the preview images have the extension `png` but it can be any of the suportet extensions.
+- In the installation instructions the preview images have the extension `png` but it can be any of the supported extensions.
 
-- This project is in no way assosieted with the company Patreon or the website patreon.com
+- This project is in no way associated with the company Patreon or the website patreon.com
