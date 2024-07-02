@@ -14,7 +14,7 @@ patreon.mati1060.com is a simple web application that displays the contents of a
 
 ## Requirements
 
-- PHP 8.3, may work with older but not tested
+- Minimum php Version: PHP 5.3
 - Files need be arranged in this way `Creatror/yyyy/mm.yyyy/dd.mm.directory name/some file name`
 - The preview images displayed on the month page need to be named image and tags with their appropriate extensions
 - The webserver used needs to support the file types that are being hosted.
